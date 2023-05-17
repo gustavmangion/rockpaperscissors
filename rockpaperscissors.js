@@ -53,8 +53,8 @@ function getScoreMessageHTML() {
 
 function getFinalResult() {
   resetButton.style.visibility = "visible";
-  if (pScore > cScore) return "🏆 Player wins!";
-  else if (cScore > pScore) return "🏳 Computer wins!";
+  if (pScore > cScore) return "Player wins!";
+  else if (cScore > pScore) return "Computer wins!";
   else return "⚔ It's a tie";
 }
 
